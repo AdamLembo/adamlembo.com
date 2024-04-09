@@ -1,0 +1,113 @@
+
+  .content { /* This is for the content */
+    position: fixed;
+    z-index: 1; /* This can be set to any number greater than -1000. */
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    font-family: myFirstFont;
+  }
+  
+  .navbar {
+    font-family: myFirstFont;
+    background-color: #424242;
+    z-index: 4;
+    position: absolute !important;
+  }
+
+  .myNavbar {
+    background-color: #131212;
+    width: 100%;
+    color: #fff;
+  }
+
+  .nav-item {
+    font-family: myFirstFont;
+  }
+  
+  @font-face {
+    font-family: myFirstFont;
+    src: url(DIN\ Bold.ttf);
+  }
+  
+
+a:hover {
+  color: #b4b2b2;
+}
+
+.btn-get-started{
+  color: rgb(19, 19, 19);
+}
+
+
+.container position-absolute {
+    display: flex;
+    flex-direction: column;
+}
+
+  body {
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    background-color: #212121;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.circle
+{
+margin: 70px auto;
+width: 40px;
+height: 40px;
+border: 5px solid rgba(255,2555,255,0.2);
+border-radius: 50%;
+border-top-color: #ffff;
+animation: spin 1s infinite;
+}
+
+.holder{
+  align-content: center;
+  -moz-animation: cssAnimation 0s ease-in 4s forwards;
+  /* Firefox */
+  -webkit-animation: cssAnimation 0s ease-in 4s forwards;
+  /* Safari and Chrome */
+  -o-animation: cssAnimation 0s ease-in 4s forwards;
+  /* Opera */
+  animation: cssAnimation 0s ease-in 4s forwards;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  
+
+}
+
+@keyframes spin{
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+
+@keyframes cssAnimation {
+  to {
+      width:0;
+      height:0;
+      overflow:hidden;
+  }
+}
+@-webkit-keyframes cssAnimation {
+  to {
+      width:0;
+      height:0;
+      visibility:hidden;
+  }
+}
+
+
