@@ -42,6 +42,11 @@
     font-family: myFirstFont;
     src: url(DIN\ Bold.ttf);
   }
+
+  hr {
+    border-color: #000000;
+    border-width: 1rem;
+}
   
   a {
     display: block;
@@ -279,6 +284,12 @@ footer{
   font-family: 'Roboto';
 }
 
+@media only screen and (max-width: 600px) {
+  .sectionTitle {
+    text-align: center;
+  }
+}
+
 .paragraph
 {
 font-size: 1.2rem;
@@ -300,6 +311,18 @@ padding-top: 9rem;
 
 .contentSection{
   background-color: #dddddd;
+}
+
+.skillsText{
+  font-size: 1.2rem;
+font-family: "Roboto" !important;
+letter-spacing: 0px !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .skillsText {
+    text-align: center;
+  }
 }
 
 .container
