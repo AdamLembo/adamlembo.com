@@ -299,7 +299,7 @@ letter-spacing: 0px !important;
 
 @media only screen and (max-width: 700px) {
   .paragraph {
-    padding-top: 9rem;
+    padding-top: 1rem;
     font-size: 1rem;
   }
 }
@@ -366,6 +366,16 @@ float: left;
   .box {
     display:block;
     margin:0 auto;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .img-fluid-1 {
+    display:block;
+    margin:0 auto;
+    text-align: center;
+    float: none;
   }
 }
 
