@@ -150,7 +150,7 @@ h3 {
     /*pointer-events: none;*/
   }
 
-  .carousel-item
+  .carousel-item /*Change to edit carousel height*/
   {
       height: 60rem
   } 
@@ -198,6 +198,7 @@ h3 {
   filter:drop-shadow(5px 5px 5px #222); 
   border-radius: 10px;
   max-height: 725px;
+  padding-left: 2rem;
 }
 
 .img-fluid{
@@ -385,10 +386,16 @@ float: left;
   letter-spacing: 0px !important;
 }
 
+@media only screen and (max-width: 700px) {
+  .contactText {font-size: 1rem;}
+}
+
 .footerText{
   font-family: "Roboto" !important
   
 }
+
+
 
 body, html { overflow-x:hidden; }
 
